@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+   <com.example.liuyangyang1203.Titlebar
+       android:id="@+id/title"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content">
+   </com.example.liuyangyang1203.Titlebar>
+
+   <LinearLayout
+       android:layout_width="wrap_content"
+       android:orientation="horizontal"
+       android:layout_height="wrap_content">
+      <com.example.liuyangyang1203.Kojian
+          android:id="@+id/zj"
+          android:text="最近搜索"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content" />
+      <Button
+         android:id="@+id/butt"
+          android:layout_marginLeft="300dp"
+          android:text="删除"
+          android:layout_width="wrap_content"
+          android:layout_height="50dp" />
+   </LinearLayout>
+
+   <com.example.liuyangyang1203.MyWaterFall
+       android:id="@+id/myview"
+       android:layout_marginTop="20dp"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content">
+   </com.example.liuyangyang1203.MyWaterFall>
+
+   <com.example.liuyangyang1203.Kojian
+       android:id="@+id/fx"
+       android:text="搜索发现"
+       android:layout_marginTop="20dp"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content" />
+   <com.example.liuyangyang1203.MyWaterFall
+       android:id="@+id/myview1"
+       android:layout_marginTop="20dp"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"></com.example.liuyangyang1203.MyWaterFall>
+</LinearLayout>

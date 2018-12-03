@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <declare-styleable name="Kojian">
+      <attr name="TextColor" format="color"></attr>
+  </declare-styleable>
+    <declare-styleable name="Kojian1">
+        <attr name="TextName" format="string"></attr>
+    </declare-styleable>
+</resources>
